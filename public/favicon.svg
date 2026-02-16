@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- White rounded background -->
+  <rect width="64" height="64" fill="#FFFFFF" rx="10" ry="10"/>
+
+  <!-- Roof (gold) -->
+  <path
+    d="M8 30 L32 10 L56 30"
+    fill="none"
+    stroke="#FBBF24"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Chimney -->
+  <rect x="40" y="14" width="6" height="10" fill="#FBBF24" />
+
+  <!-- House outline (navy) -->
+  <path
+    d="M16 54 L16 30 L32 18 L48 30 L48 54 Z"
+    fill="none"
+    stroke="#1A2B4C"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+
+  <!-- Star sparkle -->
+  <path
+    d="M52 8 
+       C53 14 56 17 62 18
+       C56 19 53 22 52 28
+       C51 22 48 19 42 18
+       C48 17 51 14 52 8 Z"
+    fill="#FBBF24"
+  />
+</svg>
