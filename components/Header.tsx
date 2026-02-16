@@ -105,7 +105,7 @@ export const Header: React.FC<HeaderProps> = ({ currency, setCurrency }) => {
           <button className="text-[#1A2B4C] hover:text-amber-500 transition-colors"><Search size={20} /></button>
           <button className="text-[#1A2B4C] hover:text-amber-500 transition-colors"><Heart size={20} /></button>
           <button className="bg-[#1A2B4C] text-white px-6 py-2 rounded-full font-bold text-sm uppercase tracking-wider hover:bg-slate-800 transition-all flex items-center gap-2 shadow-lg shadow-navy/10">
-            <User size={18} /> Login
+            <User size={18} /> Shop Now
           </button>
         </div>
 
