@@ -1,0 +1,8 @@
+{
+  "name": "AddyHolly Homes & Properties",
+  "description": "A premium real estate platform for AddyHolly, featuring modern property listings and an AI-powered home-finding assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
