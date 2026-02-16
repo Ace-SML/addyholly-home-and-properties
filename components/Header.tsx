@@ -67,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({ currency, setCurrency }) => {
     }`}>
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <a href="#" className="flex-shrink-0">
-          <Logo className="h-10 md:h-12" />
+          <Logo className="h-24 md:h-30" />
         </a>
 
         {/* Desktop Nav */}

@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="bg-white inline-block p-2 rounded-xl">
-               <Logo className="h-8" />
+               <Logo className="h-24 md:h-30" />
             </div>
             <p className="text-slate-400 leading-relaxed">
               AddyHolly Homes & Properties is your trusted partner in the world of luxury real estate. We combine expertise with a personalized touch to help you secure the perfect property.

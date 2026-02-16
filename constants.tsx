@@ -1,6 +1,9 @@
 
 import React from 'react';
 import { Property } from './types';
+import logo from "./assets/logo-removebg-preview.png";
+
+
 
 export const COLORS = {
   navy: '#1A2B4C',
@@ -9,40 +12,14 @@ export const COLORS = {
   slate: '#64748b'
 };
 
-export const Logo: React.FC<{ className?: string }> = ({ className = "h-12" }) => (
-  <div className={`flex items-center gap-4 ${className}`}>
-    <div className="relative w-12 h-12 flex items-center justify-center">
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        {/* Yellow Roof Accent */}
-        <path 
-          d="M10 45 L50 15 L90 45" 
-          fill="none" 
-          stroke="#FBBF24" 
-          strokeWidth="6" 
-          strokeLinecap="round"
-        />
-        {/* Navy House Outline */}
-        <path 
-          d="M20 90 L20 45 L50 22 L80 45 L80 90 Z" 
-          fill="none" 
-          stroke="#1A2B4C" 
-          strokeWidth="6" 
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div className="flex flex-col">
-      <span className="text-3xl font-extrabold text-[#1A2B4C] leading-none tracking-tight font-sans">Addyholly</span>
-      <span className="text-[10px] font-bold text-[#1A2B4C] tracking-[0.25em] uppercase mt-1">Homes & Properties</span>
-    </div>
-    <div className="ml-1">
-      {/* 4-pointed yellow star */}
-      <svg viewBox="0 0 100 100" className="w-7 h-7 fill-[#FBBF24]">
-        <path d="M50 0 C52 40 60 48 100 50 C60 52 52 60 50 100 C48 60 40 52 0 50 C40 48 48 40 50 0 Z" />
-      </svg>
-    </div>
-  </div>
+export const Logo: React.FC<{ className?: string }> = ({ className }) => (
+  <img 
+    src={logo} 
+    alt="Addyholly Homes & Properties Logo" 
+    className={`w-auto ${className}`}
+  />
 );
+
 
 export const MOCK_PROPERTIES: Property[] = [
   {
